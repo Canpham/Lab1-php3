@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('omega', 'HelloController@rushb')->name('omega');
+
+Route::get('lul','HelloController@rusha')->name('lul');
+
+Route::get('lel','HelloController@rushc')->name('lel');
